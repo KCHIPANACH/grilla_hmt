@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -32,18 +36,27 @@ a{
 .f_h4{font-size: 1.5rem;}
 .f_h5{font-size: 1.25rem;}
 .f_h6{font-size: 1rem;}
-.f_esp{font-size: 25rem;}
+.f_esp{font-size: 1.25rem;}
+
+:root{
+    --f_h1: 2.5rem;
+    --f_h2:2rem;
+    --f_h3:1.75rem;
+    --f_h4:1.5rem;
+    --f_h5:1.25rem;
+    --f_h6:1rem;
+    --f_esp:1.25rem;
+}
 
 .f_bold{font-weight: bold;}
 .t_center{text-align: center;}
 .m_0{margin: 0!important;}
 .p_0{padding: 0!important;}
 
-.c_white{color: var(--white);}
-.c_gray{color: var(--gray);}
-.c_black{color: var(--black);}
+.c_white{color: white;}
+.c_black{color: black;}
 .w_100{width: 100%!important;}
-.w_100_img__cov{width:100%; object-fit: cover!important;}
+.w_100_img__cov{width:100%;height: 100%; object-fit: cover!important;}
 
 .row {
     display: -ms-flexbox;
@@ -218,8 +231,8 @@ a{
 
 .j_center{justify-content: center;}
 .a_center{align-items: center;}
-.t_center{justify-content: center;align-items: center;}
-
+.f_center{justify-content: center;align-items: center;}
+.txt_center{text-align: center;}
 
 @media (min-width:576px) {
     .container {
