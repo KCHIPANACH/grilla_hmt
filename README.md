@@ -1,2 +1,2 @@
-# grillaHMT
-Grilla elaborada tomando como idea y base Bootstrap, pero solo dejando cosas mas básicas y esenciales 
+# simple.css
+Una pequeña libreria CSS, que sigue los principios de Bootstrap CSS pero sin tener tantas clases generales.
